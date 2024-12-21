@@ -24,6 +24,7 @@ class Properties(PropertyGroup):
 class Two_Point_Perspective_OT_Operator(Operator):
     bl_idname = "scene.two_point_perspective"
     bl_label = "Create Two Point Perspective Camera"
+    bl_options = {"REGISTER", "UNDO"}
     bl_description = (
         "Make the active camera two point perspective"
     )
