@@ -1,0 +1,28 @@
+schema_version = "1.0.0"
+
+id = "two_point_perspective"
+version = "0.0.1"
+name = "Two Point Perspective"
+tagline = "Replaces the active camera with a copy of it that uses two point perspective"
+maintainer = "Athina Syntychaki <athina.syntychaki@gmail.com>"
+type = "add-on"
+
+tags = ["Scene", "Camera"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+"2024 Athina Syntychaki"
+]
+
+
+[build]
+
+paths_exclude_pattern = [
+"__pycache__/",
+"/.git/",
+"/*.zip",
+]
