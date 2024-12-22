@@ -1,6 +1,6 @@
 import bpy
 
-from .two_point_perspective_ot import Two_Point_Perspective_OT_Operator, Properties
+from .two_point_perspective_ot import Two_Point_Perspective_OT_Operator, Two_Point_Perspective_Properties
 from .two_point_perspective_pt import Camera_PT_Panel
 
 bl_info = {
