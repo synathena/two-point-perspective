@@ -29,6 +29,7 @@ def register():
 def unregister():
     for c in classes:
         bpy.utils.unregister_class(c)
+    del bpy.types.Scene.two_point_perspective
 
 
 if __name__ == "__main__":
