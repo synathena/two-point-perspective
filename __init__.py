@@ -16,7 +16,7 @@ bl_info = {
 classes = (
     Camera_PT_Panel,
     Two_Point_Perspective_OT_Operator,
-    Properties,
+    Two_Point_Perspective_Properties,
 )
 
 
