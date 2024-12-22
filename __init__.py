@@ -23,7 +23,7 @@ classes = (
 def register():
     for c in classes:
         bpy.utils.register_class(c)
-    bpy.types.Scene.two_point_perspective = bpy.props.PointerProperty(type=Properties)
+    bpy.types.Scene.two_point_perspective = bpy.props.PointerProperty(type=Two_Point_Perspective_Properties)
 
 
 def unregister():
