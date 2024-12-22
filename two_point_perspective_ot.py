@@ -5,7 +5,7 @@ from bpy.types import PropertyGroup
 from .core import *
 
 
-class Properties(PropertyGroup):
+class Two_Point_Perspective_Properties(PropertyGroup):
     custom_angle: bpy.props.BoolProperty(
         name="Custom target angle",
         default=False,
