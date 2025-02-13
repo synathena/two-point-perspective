@@ -23,10 +23,10 @@ class Two_Point_Perspective_Properties(PropertyGroup):
 
 class Two_Point_Perspective_OT_Operator(Operator):
     bl_idname = "scene.two_point_perspective"
-    bl_label = "Create Two Point Perspective Camera"
+    bl_label = "Create Two-Point Perspective Camera"
     bl_options = {"REGISTER", "UNDO"}
     bl_description = (
-        "Make the active camera two point perspective"
+        "Make the active camera two-point perspective"
     )
 
     def execute(self, context):
@@ -40,7 +40,7 @@ class Two_Point_Perspective_OT_Operator(Operator):
                     context.scene.camera = obj
                     break
             else:
-                self.report({"ERROR"}, "There is no perspective camera in the scene")
+                self.report({"ERROR"}, "There is no camera in the scene")
                 return
 
         active_cam = add_two_point_perspective_camera(
