@@ -1,13 +1,13 @@
 schema_version = "1.0.0"
 
 id = "two_point_perspective"
-version = "0.0.1"
+version = "0.0.2"
 name = "Two-Point Perspective"
-tagline = "Replaces the active camera with a copy of it that uses two point perspective"
+tagline = "Replaces the active camera with a two-point perspective one"
 maintainer = "Athina Syntychaki <athina.syntychaki@gmail.com>"
 type = "add-on"
 
-tags = ["Scene", "Camera"]
+tags = ["Camera"]
 
 blender_version_min = "4.2.0"
 
