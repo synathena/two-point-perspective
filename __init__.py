@@ -4,11 +4,11 @@ from .two_point_perspective_ot import Two_Point_Perspective_OT_Operator, Two_Poi
 from .two_point_perspective_pt import Camera_PT_Panel
 
 bl_info = {
-    "name": "2-Point Perspective Camera",
+    "name": "Two-Point Perspective Camera",
     "author": "Athina Syntychaki",
-    "description": "Replaces the active camera with a copy of it that uses two point perspective",
+    "description": "Replaces the active camera with a copy of it that uses two-point perspective",
     "blender": (4, 2, 0),
-    "version": (0, 0, 1),
+    "version": (0, 0, 2),
     "location": "",
     "warning": "",
     "category": "Camera",
